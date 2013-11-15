@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:title="@string/setting_title">
+    <PreferenceScreen 
+        android:title="@string/setting_service" android:key="@string/setting_key_service">
+        <Preference
+            android:title="@string/setting_service_start"
+            android:summary="@string/setting_service_stop_summary"
+            android:key="@string/setting_key_service_startstop"/>
+        <CheckBoxPreference
+            android:title="@string/setting_service_startup"
+            android:summaryOn="@string/setting_service_startup_summaryon"
+            android:summaryOff="@string/setting_service_startup_summaryoff"
+            android:defaultValue="false" android:key="@string/setting_key_service_startup"/>
+    </PreferenceScreen>
+    <PreferenceScreen 
+        android:title="@string/setting_args" android:key="@string/setting_key_args">
+        <CheckBoxPreference 
+            android:title="@string/setting_args_gps"
+            android:defaultValue="false"
+            android:summary="@string/setting_args_gps_summary" android:key="@string/setting_key_args_gps"/>
+        <EditTextPreference
+            android:title="@string/setting_args_time"
+            android:defaultValue="3"
+            android:summary="@string/setting_args_time_summary" android:key="@string/setting_key_args_time"/>
+        <EditTextPreference 
+            android:title="@string/setting_args_distace"
+            android:defaultValue="500"
+            android:summary="@string/setting_args_distace_summary" android:key="@string/setting_key_args_distance"/>
+        <EditTextPreference 
+            android:title="@string/setting_args_radius"
+            android:defaultValue="1000"
+            android:summary="@string/setting_args_radius_summary" android:key="@string/setting_key_args_radius"/>
+        <Preference 
+            android:title="@string/setting_args_general"
+            android:summary="@string/setting_args_general_summary" android:key="@string/setting_key_args_general"/>
+    </PreferenceScreen>
+    <PreferenceCategory 
+	    android:title="@string/setting_tips">
+	    <Preference 
+	        android:title="@string/setting_tips_title"
+	        android:summary="@string/setting_tips_summary" android:key="@string/setting_key_tips"/>
+	</PreferenceCategory>
+	<PreferenceCategory 
+	    android:title="@string/setting_category_other">
+	    <Preference 
+	        android:title="@string/setting_checkupdate"
+	        android:summary="@string/setting_checkupdate_summary" android:key="@string/setting_key_checkupdate"/>
+	    <Preference 
+	        android:title="@string/setting_about"
+	        android:summary="@string/setting_about_summary" android:key="@string/setting_key_about"/>
+	    <!--
+	    <Preference 
+	        android:title="@string/setting_donate"
+	        android:summary="@string/setting_donate_summary" android:key="@string/setting_key_donate"/>
+	     -->
+	</PreferenceCategory>
+</PreferenceScreen>

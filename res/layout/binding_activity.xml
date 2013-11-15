@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill" >
+    
+    <ImageView
+        android:id="@+id/binding_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/binding" />
+
+    <TextView
+        android:id="@+id/textView_bindingtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:text="@string/start_copyright_info"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/textView_bindingsetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_bindingtitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/binding_setting" />
+
+    <ImageButton
+        android:id="@+id/imageButton_binding_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_bindingresult"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:background="#00000000"
+        android:src="@drawable/binding_in" />
+    
+    <ImageButton
+        android:id="@+id/imageButton_binding_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_bindingresult"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:background="#00000000"
+        android:src="@drawable/binding_out" />
+
+    <TextView
+        android:id="@+id/textView_bindingresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_bindingsetting"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        android:text="@string/binding_result_out" />
+
+    <TextView
+        android:id="@+id/textView_renrenid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView_bindingresult"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:text="@string/binding_renrenid" />
+
+    <TextView
+        android:id="@+id/textView_imei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView_renrenid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:text="@string/binding_imei" />
+
+</RelativeLayout>

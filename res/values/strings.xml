@@ -1,0 +1,79 @@
+<resources>
+
+    <string name="app_name">位置通告</string>
+    <string name="url_donate_alipay">https://me.alipay.com/sunxianlei</string>
+    
+    <string name="setting_title">位置通告设置</string>
+	<string name="setting_service">定位服务设置</string>
+	<string name="setting_args">定位参数设置</string>
+	<string name="setting_category_other">其他</string>
+	<string name="setting_checkupdate">检查新版本</string>
+	<string name="setting_checkupdate_summary">点击即可检查是否有更新</string>
+	<string name="setting_about">关于</string>
+	<string name="setting_about_summary">version1.3</string>
+	<string name="setting_donate">捐赠</string>
+	<string name="setting_donate_summary">您可以对我进行小额捐赠</string>
+	<string name="setting_tips">使用提示</string>
+	<string name="setting_tips_title">设参数->开服务->登网页</string>
+	<string name="setting_tips_summary">查看详情请点击此处</string>
+	
+	<string name="setting_service_start">启动服务</string>
+	<string name="setting_service_stop">停止服务</string>
+	<string name="setting_service_start_summary">服务正在运行</string>
+	<string name="setting_service_stop_summary">服务已经停止</string>
+	<string name="setting_service_startup">开机时启动服务</string>
+	<string name="setting_service_startup_summaryon">开机时服务会自动启动</string>
+	<string name="setting_service_startup_summaryoff">服务需要手动启动</string>
+	
+	<string name="setting_args_gps">使用GPS定位</string>
+	<string name="setting_args_gps_summary">使用GPS结果更准确</string>
+	<string name="setting_args_time">定位时间间隔</string>
+	<string name="setting_args_time_summary">每隔几分钟(应大于1)进行一次位置上报</string>
+	<string name="setting_args_distace">定位距离间隔</string>
+	<string name="setting_args_distace_summary">距离间隔半径(米)内认为不移动，不上报</string>
+	<string name="setting_args_radius">精度半径</string>
+	<string name="setting_args_radius_summary">精度半径(米)外认为不准确，不上报</string>
+	<string name="setting_args_general">说明</string>
+	<string name="setting_args_general_summary">若您不确定参数，保持默认即可\n修改参数后请重启服务</string>
+	
+	<string name="setting_key_service">key_service</string>
+	<string name="setting_key_args">key_args</string>
+	<string name="setting_key_checkupdate">key_checkupdate</string>
+	<string name="setting_key_about">key_about</string>
+	<string name="setting_key_donate">key_donate</string>
+	<string name="setting_key_tips">key_tips</string>
+	
+	<string name="setting_key_service_startstop">key_service_startstop</string>
+	<string name="setting_key_service_startup">key_service_startup</string>
+	
+	<string name="setting_key_args_gps">key_args_gps</string>
+	<string name="setting_key_args_time">key_args_time</string>
+	<string name="setting_key_args_distance">key_args_distance</string>
+	<string name="setting_key_args_radius">key_args_radius</string>
+	<string name="setting_key_args_general">key_args_general</string>
+	
+	<string name="setting_about_dialog_title">关于</string>
+	<string name="setting_about_dialog_message">[位置通告]包含两部分\n一是手机软件，即您正在使用的这款。\n二是网页应用，具体网址是http://phonelocation.duapp.com。\n具体使用方法为安装软件到手机并记录手机序列号(拨号面板输入*#06#可查)或者登陆人人网帐号并绑定，登陆网页应用输入手机序列号或者登陆人人网帐号即可实时监控您的手机位置。如您有什么不明白需要帮助，请登陆网页应用查看更详细说明。祝您使用愉快~</string>
+	<string name="setting_about_dialog_buttontext">确定</string>
+	
+	<string name="setting_tips_dialog_title">使用说明</string>
+	<string name="setting_tips_dialog_message">1.设参数——进入定位参数设置具体参数\n2.开服务——进入定位服务设置确保服务正在运行\n3.登网页——登陆phonelocation.duapp.com</string>
+	<string name="setting_tips_dialog_buttontext">确定</string>
+	
+	<string name="setting_donate_dialog_title">捐赠</string>
+	<string name="setting_donate_dialog_message">如果我做的努力帮助到了您，您可以考虑对我进行小额捐赠，点击下方支付宝捐赠按钮即可请我吃顿饭~</string>
+	<string name="setting_donate_dialog_imgbtn_contentdescrib">点击请我吃饭</string>
+	
+	<string name="start_copyright_info">位置通告</string>
+	<string name="start_info">行踪尽在掌握</string>
+	<string name="start_bottominfo">不登陆人人也可直接使用</string>
+	<string name="start_user_info">您可以使用人人网登陆并绑定人人网ID</string>
+	<string name="start_user_id">您当前登陆的人人网ID为：</string>
+	<string name="start_imei">您当前手机序列号为：</string>
+	
+	<string name="binding_setting">绑定设置</string>
+	<string name="binding_imei">IMEI：</string>
+	<string name="binding_renrenid">人人ID：</string>
+	<string name="binding_result_in">已绑定</string>
+	<string name="binding_result_out">未绑定</string>
+</resources>

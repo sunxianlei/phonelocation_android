@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill" >
+
+    <ImageView
+        android:id="@+id/start_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/start" />
+
+    <ImageButton
+        android:id="@+id/imageButton_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="23dp"
+        android:background="#00000000"
+        android:src="@drawable/renren_login" />
+    
+    <ImageButton
+        android:id="@+id/imageButton_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="23dp"
+        android:background="#00000000"
+        android:src="@drawable/renren_logout" />
+
+    <ImageButton
+        android:id="@+id/imageButton_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageButton_login"
+        android:layout_marginRight="36dp"
+        android:background="#00000000"
+        android:src="@drawable/start_setting" />
+
+    <TextView
+        android:id="@+id/textView_imei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:singleLine="false"
+        android:text="@string/start_imei" />
+
+    <ImageButton
+        android:id="@+id/imageButton_binding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton_setting"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="#00000000"
+        android:src="@drawable/start_binding" />
+
+    <TextView
+        android:id="@+id/textView_copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:text="@string/start_copyright_info"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/textView_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_copyright"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/start_info" />
+
+    <TextView
+        android:id="@+id/textView_bottominfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/start_bottominfo" />
+
+    <TextView
+        android:id="@+id/textView_userid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_imei"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:singleLine="false"
+        android:text="@string/start_user_info" />
+
+</RelativeLayout>
